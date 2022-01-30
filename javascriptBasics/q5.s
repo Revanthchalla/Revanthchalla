@@ -20,14 +20,14 @@ const SortObjectArray = function(jsonObject){
 
 SortObjectArray.prototype = Object.create(SortArray.prototype);
 
-array = [1,4,2,6,3,10,11]
+array = [4,3,2,7,1,11,10]
 const obj = new SortArray(array);
 console.log(obj.getSortedArray());
 const arr = [
-  { name: "Alex",   grade: 15 },
-  { name: "Devlin", grade: 13 },
-  { name: "Eagle",  grade: 12 },
-  { name: "Sam",    grade: 14 },
+  { name: "mr.a",   grade: 15 },
+  { name: "mr.y", grade: 13 },
+  { name: "mr.x",  grade: 12 },
+  { name: "mr.z",    grade: 14 },
 ]
 const obj2 = new SortObjectArray(arr);
 obj2.sortJSON()
