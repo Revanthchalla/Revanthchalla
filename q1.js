@@ -3,3 +3,4 @@ let person={
 	lastname: "Challa",
 	age: 21
 };
+console.log(person)
