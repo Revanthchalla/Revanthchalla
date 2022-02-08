@@ -1,11 +1,11 @@
 const parser = require('xml2js');
 const xmldata = `<student>
     <details>
-        <name>gayathri</name>
+        <name>gRevanth</name>
         <id>1</id>
     </details>
     <details>
-        <name>dolly</name>
+        <name>XYZ</name>
         <id>2</id>
     </details>
 </student>`;
