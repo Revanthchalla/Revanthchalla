@@ -12,7 +12,7 @@ async function download(uri, filename, callback){
 };
 const imgdata = [
   {
-    name: '',
+    name: '1',
     imgurl:'https://doodleart.redbull.com/assets/managed/entries/processed/sm/367010617181759_36211000.jpg'
   },
   {
