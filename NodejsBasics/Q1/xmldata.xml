@@ -1,0 +1,10 @@
+<student>
+    <details>
+        <name>Revanth</name>
+        <id>1</id>
+    </details>
+    <details>
+        <name>dolly</name>
+        <id>2</id>
+    </details>
+</student>
