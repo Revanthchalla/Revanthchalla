@@ -42,7 +42,7 @@ const imgdata = [
 
 imgdata.forEach(ele=>{
   const name = ele.name;
-  download(ele.imgurl, `./images/${name}.png`, function(){
+  download(ele.imgurl, `./images/${name}.jpg`, function(){
     console.log(`done-${ele.name}`);
   });
 });
