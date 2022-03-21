@@ -1,0 +1,14 @@
+var inventory=nlapiCreateRecord('inventoryitem');
+inventory.setFieldValue('itemid','Frame Bag');
+inventory.setFieldValue('displayname','Frame Bag');
+inventory.setFieldValue('subsidiary','1');
+inventory.setFieldValue('includechildren','T');
+inventory.setFieldValue('cost','60');
+inventory.selectNewLineItem('itemvendor');
+inventory.setCurrentLineItemValue('itemvendor','vendor','1552');
+inventory.commitLineItem('itemvendor');
+inventory.setFieldValue('Salesdescription','Standard Bags');
+inventory.setFieldValue('costestimate','10');
+inventory.setFieldValue('weight','224');
+inventory.setFieldValue('shippingcost','5');
+var inventid=nlapiSubmitRecord(inventory,true);
